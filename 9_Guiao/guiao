@@ -1,0 +1,7 @@
+Implemente um servidor que permita clientes remotos jogarem o seguinte jogo.
+
+Cada cliente joga apenas uma partida. Cada partida deverá arrancar assim que 4 jogadores se tiverem ligado. 
+
+Cada jogador submete um numero entre 1 e 9. Se a soma dos números dos 4 jogadores exceder 21, todos perdem; caso contrario ganha(m) o(s) jogador(es) cujo o numero exceder a media dos numeros. 
+
+A resposta do servidor a cada cliente deverá ser "Ganhou" ou "Peredeu".

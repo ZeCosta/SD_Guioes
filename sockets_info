@@ -1,0 +1,23 @@
+sockets em c					java
+
+
+sv:
+
+ls(listening socet):				
+socket()				--|
+bind()					--|-- new ServerSocket(12345)
+listen()				--|
+
+(pode ter varios cs(connected socket))
+while
+	cs=accept(ls)
+		while(read)
+
+
+cliente:
+
+cs=socket()				--|--new socket("localhost";12345)
+connect()				--|
+
+
+netstat -p tcp -na |grep 12345
